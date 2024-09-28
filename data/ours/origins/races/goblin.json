@@ -1,0 +1,14 @@
+{
+    "name": "Goblin",
+    "icon": "numismatic-overhaul:gold_coin",
+    "description": "",
+    "order": 4,
+    "impact": 2,
+    "powers": [
+        "ours:very_short",
+        "ours:nimble",
+        "ours:fragile",
+        "ours:wolf_rider",
+        "ours:hoarder"
+    ]
+}

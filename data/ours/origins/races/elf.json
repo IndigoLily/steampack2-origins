@@ -1,0 +1,13 @@
+{
+    "name": "Elf",
+    "icon": "minecraft:glass",
+    "description": "",
+    "order": 3,
+    "impact": 1,
+    "powers": [
+        "ours:tall",
+        "ours:darkvision",
+        "ours:poison_immunity",
+        "ours:very_fragile"
+    ]
+}

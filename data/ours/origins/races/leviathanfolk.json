@@ -1,0 +1,17 @@
+{
+    "name": "Leviathanfolk",
+    "icon": "minecraft:tropical_fish",
+    "description": "",
+    "order": 7,
+    "impact": 3,
+    "powers": [
+        "ours:very_tall",
+        "ours:very_tough",
+        "ours:sturdy",
+        "ours:fast_swimmer",
+        "ours:slow_on_land",
+        "ours:water_breathing",
+        "ours:carnivore",
+        "ours:darkvision"
+    ]
+}

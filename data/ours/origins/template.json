@@ -1,0 +1,9 @@
+{
+    "name": "Name",
+    "icon": "Icon",
+    "description": "Description",
+    "order": 0,
+    "impact": 1,
+    "powers": [
+    ]
+}

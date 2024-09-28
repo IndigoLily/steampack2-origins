@@ -1,0 +1,7 @@
+{
+    "name": "tribe",
+    "order": 2,
+    "origins": [
+        "ours:tribes/",
+    ]
+}

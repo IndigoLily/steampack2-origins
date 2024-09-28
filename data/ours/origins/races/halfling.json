@@ -1,0 +1,16 @@
+{
+    "name": "Halfling",
+    "icon": "minecraft:wheat",
+    "description": "",
+    "order": 1,
+    "impact": 1,
+    "powers": [
+        "ours:very_short",
+        "ours:wide",
+        "ours:tough",
+        "ours:lucky",
+        "ours:farmer",
+        "ours:hungry",
+        "ours:fast_learner"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "subrace",
+    "order": 1,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "ours:races/"
+            },
+            "origins": [
+                "ours:subraces/",
+            ]
+        }
+    ]
+}

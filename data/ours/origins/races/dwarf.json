@@ -1,0 +1,17 @@
+{
+    "name": "Dwarf",
+    "icon": "minecraft:iron_pickaxe",
+    "description": "",
+    "order": 2,
+    "impact": 1,
+    "powers": [
+        "ours:short",
+        "ours:wide",
+        "ours:very_tough",
+        "ours:poison_immunity",
+        "ours:darkvision",
+        "ours:miner",
+        "ours:smith",
+        "ours:goat_rider"
+    ]
+}

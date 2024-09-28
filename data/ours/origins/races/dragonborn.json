@@ -1,0 +1,16 @@
+{
+    "name": "Dragonborn",
+    "icon": "icarus:red_dragon_wings",
+    "description": "",
+    "order": 8,
+    "impact": 3,
+    "powers": [
+        "ours:very_tall",
+        "ours:slow_on_land",
+        "ours:flight",
+        "ours:increased_jump",
+        "ours:carnivore",
+        "ours:smith",
+        "ours:firestarter"
+    ]
+}

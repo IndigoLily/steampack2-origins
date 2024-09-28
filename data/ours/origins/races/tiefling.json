@@ -1,0 +1,15 @@
+{
+    "name": "Tiefling",
+    "icon": "minecraft:netherrack",
+    "description": "",
+    "order": 6,
+    "impact": 3,
+    "powers": [
+        "ours:darkvision",
+        "ours:fire_resistance",
+        "ours:piglin_friend",
+        "ours:enchanter",
+        "ours:infernal",
+        "ours:oppressed"
+    ]
+}
