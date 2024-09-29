@@ -5,13 +5,13 @@
     "order": 7,
     "impact": 3,
     "powers": [
-        "ours:very_tall",
-        "ours:very_tough",
-        "ours:sturdy",
-        "ours:fast_swimmer",
-        "ours:slow_on_land",
+        "ours:size/very_tall",
+        "ours:damage/very_tough",
+        "ours:damage/sturdy",
+        "ours:movement/fast_swimmer",
+        "ours:movement/slow_on_land",
+        "ours:food/carnivore",
         "ours:water_breathing",
-        "ours:carnivore",
         "ours:darkvision"
     ]
 }

@@ -5,12 +5,12 @@
     "order": 1,
     "impact": 1,
     "powers": [
-        "ours:very_short",
-        "ours:wide",
-        "ours:tough",
+        "ours:size/very_short",
+        "ours:size/wide",
+        "ours:damage/tough",
+        "ours:food/hungry",
         "ours:lucky",
         "ours:farmer",
-        "ours:hungry",
         "ours:fast_learner"
     ]
 }

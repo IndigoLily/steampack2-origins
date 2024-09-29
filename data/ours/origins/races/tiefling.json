@@ -5,11 +5,11 @@
     "order": 6,
     "impact": 3,
     "powers": [
+        "ours:damage/fire_resistance",
+        "ours:damage/infernal",
+        "ours:relations/piglin_friend",
+        "ours:relations/oppressed",
         "ours:darkvision",
-        "ours:fire_resistance",
-        "ours:piglin_friend",
-        "ours:enchanter",
-        "ours:infernal",
-        "ours:oppressed"
+        "ours:enchanter"
     ]
 }

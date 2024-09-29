@@ -5,9 +5,9 @@
     "order": 3,
     "impact": 1,
     "powers": [
-        "ours:tall",
-        "ours:darkvision",
-        "ours:poison_immunity",
-        "ours:very_fragile"
+        "ours:size/tall",
+        "ours:damage/very_fragile",
+        "ours:damage/poison_immunity",
+        "ours:darkvision"
     ]
 }

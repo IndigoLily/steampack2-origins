@@ -5,11 +5,11 @@
     "order": 8,
     "impact": 3,
     "powers": [
-        "ours:very_tall",
-        "ours:slow_on_land",
-        "ours:flight",
-        "ours:increased_jump",
-        "ours:carnivore",
+        "ours:size/very_tall",
+        "ours:movement/flight",
+        "ours:movement/increased_jump",
+        "ours:movement/slow_on_land",
+        "ours:food/carnivore",
         "ours:smith",
         "ours:firestarter"
     ]

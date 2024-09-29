@@ -5,10 +5,10 @@
     "order": 4,
     "impact": 2,
     "powers": [
-        "ours:very_short",
-        "ours:nimble",
-        "ours:fragile",
-        "ours:wolf_rider",
+        "ours:size/very_short",
+        "ours:movement/nimble",
+        "ours:health/fragile",
+        "ours:rider/wolf",
         "ours:hoarder"
     ]
 }

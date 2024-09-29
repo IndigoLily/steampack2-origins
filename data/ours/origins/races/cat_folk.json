@@ -5,12 +5,12 @@
     "order": 5,
     "impact": 2,
     "powers": [
-        "ours:short",
-        "ours:nimble",
-        "ours:climber",
-        "ours:padded_feet",
-        "ours:carnivore",
-        "ours:fragile",
+        "ours:size/short",
+        "ours:movement/nimble",
+        "ours:movement/climber",
+        "ours:damage/fragile",
+        "ours:damage/padded_feet",
+        "ours:food/carnivore",
         "ours:meow"
     ]
 }
