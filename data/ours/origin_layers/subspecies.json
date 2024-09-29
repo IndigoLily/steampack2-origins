@@ -1,14 +1,14 @@
 {
-    "name": "subrace",
+    "name": "subspecies",
     "order": 1,
     "origins": [
         {
             "condition": {
                 "type": "origins:origin",
-                "origin": "ours:races/"
+                "origin": "ours:species/"
             },
             "origins": [
-                "ours:subraces/",
+                "ours:subspecies/",
             ]
         }
     ]

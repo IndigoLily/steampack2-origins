@@ -1,0 +1,15 @@
+{
+    "name": "species",
+    "order": 0,
+    "origins": [
+        "ours:species/human",
+        "ours:species/halfling",
+        "ours:species/dwarf",
+        "ours:species/elf",
+        "ours:species/goblin",
+        "ours:species/cat_folk",
+        "ours:species/tiefling",
+        "ours:species/leviathanfolk",
+        "ours:species/dragonborn"
+    ]
+}
