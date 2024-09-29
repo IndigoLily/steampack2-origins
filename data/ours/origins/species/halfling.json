@@ -1,7 +1,7 @@
 {
     "name": "Halfling",
     "icon": "minecraft:wheat",
-    "description": "",
+    "description": "Small folk with big appetites.",
     "order": 1,
     "impact": 1,
     "powers": [
