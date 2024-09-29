@@ -1,4 +1,6 @@
 {
+    "name": "Very Short",
+    "description": "You're so short that if you crouch, you can fit in a 1 block tall hole.",
     "type": "origins:action_on_callback",
     "entity_action_gained": {
         "type": "origins:and",
