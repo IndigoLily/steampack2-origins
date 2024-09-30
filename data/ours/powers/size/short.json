@@ -5,7 +5,7 @@
     "entity_action_gained": {
         "type": "origins:and",
         "actions": [
-            { "type": "origins:execute_command", "command": "scale multiply pehkui:base 0.83333 @s" },
+            { "type": "origins:execute_command", "command": "scale divide pehkui:base 1.2 @s" },
             { "type": "origins:execute_command", "command": "scale persist set pehkui:base true @s" }
         ]
     },
