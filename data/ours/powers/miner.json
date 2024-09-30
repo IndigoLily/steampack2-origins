@@ -1,15 +1,16 @@
 {
     "name": "Miner",
     "description": "You mine stone and ore faster",
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
-            }
-        }
-    ]
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {"type": "origins:in_tag", "tag": "c:stone"},
+            {"type": "origins:in_tag", "tag": "c:ores"}
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
 }
