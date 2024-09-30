@@ -1,6 +1,6 @@
 {
     "name": "Miner",
-    "description": "You mine stone and ore faster",
+    "description": "You mine stone and ore faster.",
     "type": "origins:modify_break_speed",
     "block_condition": {
         "type": "origins:or",

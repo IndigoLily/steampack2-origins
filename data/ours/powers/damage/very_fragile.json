@@ -1,6 +1,6 @@
 {
     "name": "Very Fragile",
-    "description": "You have 2 hearts less",
+    "description": "You have 2 hearts less.",
     "type": "origins:attribute",
     "modifier": {
         "attribute": "minecraft:generic.max_health",

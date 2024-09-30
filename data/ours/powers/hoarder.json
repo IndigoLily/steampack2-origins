@@ -1,6 +1,6 @@
 {
     "name": "Hoarder",
-    "description": "You can always find a little extra space to put things",
+    "description": "You can always find a little extra space to put things.",
     "type": "origins:inventory",
     "drop_on_death": true
 }

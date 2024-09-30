@@ -1,6 +1,6 @@
 {
     "name": "Climber",
-    "description": "You can climb almost anything as if it were a ladder",
+    "description": "You can climb almost anything as if it were a ladder.",
     "type": "origins:climbing",
     "condition": { "type": "origins:collided_horizontally" }
 }

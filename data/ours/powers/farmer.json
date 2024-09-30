@@ -1,6 +1,6 @@
 {
     "name": "Farmer",
-    "description": "You get double the yield when harvesting crops",
+    "description": "You get double the yield when harvesting crops.",
     "hidden": true,
     "type": "origins:replace_loot_table",
     "replace": {

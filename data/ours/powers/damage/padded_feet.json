@@ -1,6 +1,6 @@
 {
     "name": "Padded Feet",
-    "description": "You take no fall damage",
+    "description": "You take no fall damage.",
     "type": "origins:modify_damage_taken",
     "damage_condition": {
         "type": "origins:in_tag",

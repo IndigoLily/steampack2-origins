@@ -1,6 +1,6 @@
 {
     "name": "Meow",
-    "description": "Meow",
+    "description": "Meow.",
     "type": "origins:active_self",
     "cooldown": 10,
     "entity_action": {
