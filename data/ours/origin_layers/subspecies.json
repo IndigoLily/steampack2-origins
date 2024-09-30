@@ -4,11 +4,20 @@
     "origins": [
         {
             "condition": {
-                "type": "origins:origin",
-                "origin": "ours:species/"
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:living"
+                    },
+                    {
+                        "type": "origins:power",
+                        "power": "ours:spawn/can_choose_nether"
+                    }
+                ]
             },
             "origins": [
-                "ours:subspecies/",
+                "ours:subspecies/tiefling/overworld",
+                "ours:subspecies/tiefling/nether"
             ]
         }
     ]

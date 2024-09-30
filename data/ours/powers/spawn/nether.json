@@ -1,0 +1,6 @@
+{
+    "hidden": true,
+    "type": "origins:modify_player_spawn",
+    "dimension": "the_nether",
+    "spawn_strategy": "center"
+}

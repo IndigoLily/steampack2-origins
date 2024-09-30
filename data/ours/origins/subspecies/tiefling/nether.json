@@ -1,0 +1,8 @@
+{
+    "name": "Nether",
+    "description": "You spawn in the Nether.",
+    "icon": "minecraft:netherrack",
+    "powers": [
+        "ours:spawn/nether"
+    ]
+}
