@@ -1,7 +1,7 @@
 {
     "name": "Goblin",
     "icon": "numismatic-overhaul:gold_coin",
-    "description": "",
+    "description": "You're just a little guy 🙂",
     "order": 4,
     "impact": 2,
     "powers": [
