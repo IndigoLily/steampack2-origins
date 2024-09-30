@@ -10,7 +10,10 @@
             },
             {
                 "inverted": true,
-                "type": "origins:meat"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "origins:meat"
+                }
             }
         ]
     }
