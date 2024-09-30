@@ -1,13 +1,25 @@
 {
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
-            }
+    "name": "Slow on Land",
+    "description": "You move slower on land",
+    "type": "origins:action_over_time",
+    "condition": {
+        "inverted": true,
+        "type": "origins:or",
+        "conditions": [
+            { "type": "origins:submerged_in", "fluid": "minecraft:water" },
+            { "type": "origins:fall_flying" }
+        ]
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": -1,
+            "show_particles": false
         }
-    ]
+    },
+    "falling_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:slowness"
+    }
 }
