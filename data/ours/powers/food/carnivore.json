@@ -1,6 +1,6 @@
 {
     "name": "Carnivore",
-    "description": "You can only eat meat (or golden food)",
+    "description": "You can only eat meat.",
     "type": "origins:prevent_item_use",
     "item_condition": {
         "type": "origins:and",
@@ -10,18 +10,7 @@
             },
             {
                 "inverted": true,
-                "type": "origins:or",
-                "conditions": [
-                    {
-                        "type": "origins:meat"
-                    },
-                    {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "tag": "minecraft:piglin_loved"
-                        }
-                    }
-                ]
+                "type": "origins:meat"
             }
         ]
     }

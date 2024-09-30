@@ -9,7 +9,7 @@
         "ours:movement/flight",
         "ours:movement/increased_jump",
         "ours:movement/slow_on_land",
-        "ours:food/carnivore",
+        "ours:food/partial_carnivore",
         "ours:firestarter"
     ]
 }
