@@ -1,13 +1,6 @@
 {
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
-            }
-        }
-    ]
+    "name": "Hoarder",
+    "description": "You can always find a little extra space to put things",
+    "type": "origins:inventory",
+    "drop_on_death": true
 }
