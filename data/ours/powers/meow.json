@@ -1,13 +1,11 @@
 {
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
-            }
-        }
-    ]
+    "name": "Meow",
+    "description": "Meow",
+    "type": "origins:active_self",
+    "cooldown": 10,
+    "entity_action": {
+        "type": "origins:play_sound",
+        "category": "player",
+        "sound": "entity.cat.ambient"
+    }
 }
