@@ -1,0 +1,5 @@
+{
+    "name": "Netherspawn",
+    "description": "You can choose to spawn in the Nether instead of the overworld.",
+    "type": "origins:simple"
+}

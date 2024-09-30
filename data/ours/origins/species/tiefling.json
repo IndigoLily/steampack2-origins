@@ -5,11 +5,12 @@
     "order": 6,
     "impact": 3,
     "powers": [
+        "ours:spawn/can_choose_nether",
         "ours:damage/fire_resistance",
         "ours:damage/infernal",
         "ours:relations/piglin_friend",
         "ours:relations/oppressed",
         "ours:darkvision",
-        "ours:enchanter"
+        "ours:fast_learner"
     ]
 }
