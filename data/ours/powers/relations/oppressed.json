@@ -1,13 +1,15 @@
 {
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
-            }
+    "name": "Oppressed",
+    "description": "Villagers refuse to trade with you",
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                { "type": "origins:entity_type", "entity_type": "minecraft:villager" },
+                { "type": "origins:entity_type", "entity_type": "minecraft:wandering_trader" }
+            ]
         }
-    ]
+    }
 }
