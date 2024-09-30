@@ -1,7 +1,7 @@
 {
     "name": "Tiefling",
     "icon": "minecraft:netherrack",
-    "description": "",
+    "description": "One way or another, the Nether has left a mark on your bloodline.",
     "order": 6,
     "impact": 3,
     "powers": [
