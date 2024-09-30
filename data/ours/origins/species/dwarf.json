@@ -1,7 +1,7 @@
 {
     "name": "Dwarf",
     "icon": "minecraft:iron_pickaxe",
-    "description": "",
+    "description": "Short and hardy people. Good at mining.",
     "order": 2,
     "impact": 1,
     "powers": [
