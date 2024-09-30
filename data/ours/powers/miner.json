@@ -1,4 +1,6 @@
 {
+    "name": "Miner",
+    "description": "You mine stone and ore faster",
     "type": "origins:simple",
     "badges": [
         {
