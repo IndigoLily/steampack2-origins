@@ -1,7 +1,7 @@
 {
     "name": "Dragonborn",
     "icon": "icarus:red_dragon_wings",
-    "description": "",
+    "description": "Large winged people.",
     "order": 8,
     "impact": 3,
     "powers": [
