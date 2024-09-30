@@ -1,4 +1,6 @@
 {
+    "name": "Piglin Friend",
+    "description": "Piglins won't attack you for not having gold on you.",
     "type": "origins:simple",
     "hidden": true,
     "badges": [

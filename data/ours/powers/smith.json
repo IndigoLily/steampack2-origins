@@ -1,4 +1,7 @@
 {
+    "name": "Smith",
+    "description": "Anvils last longer when you use them.",
+    "hidden": true,
     "type": "origins:simple",
     "badges": [
         {
