@@ -1,13 +1,28 @@
 {
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
+    "name": "Carnivore",
+    "description": "You can only eat meat (or golden food)",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "inverted": true,
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:meat"
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "minecraft:piglin_loved"
+                        }
+                    }
+                ]
             }
-        }
-    ]
+        ]
+    }
 }
