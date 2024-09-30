@@ -1,6 +1,6 @@
 {
     "name": "Slow on Land",
-    "description": "You move slower on land",
+    "description": "You move slower on land.",
     "type": "origins:action_over_time",
     "condition": {
         "inverted": true,
