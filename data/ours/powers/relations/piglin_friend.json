@@ -1,5 +1,6 @@
 {
     "type": "origins:simple",
+    "hidden": true,
     "badges": [
         {
             "type": "origins:tooltip",

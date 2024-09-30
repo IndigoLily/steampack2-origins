@@ -1,13 +1,19 @@
 {
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
-            }
-        }
-    ]
+    "name": "Very Tall",
+    "description": "You're much taller than a human.",
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:and",
+        "actions": [
+            { "type": "origins:execute_command", "command": "scale multiply pehkui:base 1.39 @s" },
+            { "type": "origins:execute_command", "command": "scale persist set pehkui:base true @s" }
+        ]
+    },
+    "entity_action_lost": {
+        "type": "origins:and",
+        "actions": [
+            { "type": "origins:execute_command", "command": "scale reset pehkui:base @s" },
+            { "type": "origins:execute_command", "command": "scale persist reset pehkui:base @s" }
+        ]
+    }
 }
