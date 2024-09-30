@@ -1,13 +1,13 @@
 {
-    "type": "origins:simple",
-    "badges": [
-        {
-            "type": "origins:tooltip",
-            "sprite": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
-            "text": {
-                "text": "NOT IMPLEMENTED YET",
-                "color": "red"
-            }
-        }
-    ]
+    "name": "Padded Feet",
+    "description": "You take no fall damage",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "is_fall"
+    },
+    "modifier": {
+        "operation": "set_total",
+        "value": 0
+    }
 }
