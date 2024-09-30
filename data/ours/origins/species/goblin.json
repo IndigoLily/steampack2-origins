@@ -7,7 +7,7 @@
     "powers": [
         "ours:size/very_short",
         "ours:movement/nimble",
-        "ours:health/fragile",
+        "ours:damage/fragile",
         "ours:rider/wolf",
         "ours:hoarder"
     ]
