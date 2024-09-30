@@ -2,6 +2,7 @@
     "name": "Goat Rider",
     "description": "You can ride on a goat by right-clicking it. You can't control it though...",
     "type": "origins:action_on_entity_use",
+    "hidden": true,
     "bientity_condition": {
         "type": "origins:target_condition",
         "condition": {
