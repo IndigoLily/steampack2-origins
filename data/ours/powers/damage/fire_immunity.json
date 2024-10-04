@@ -1,13 +1,13 @@
 {
-    "name": "Fire Resistance",
-    "description": "You take less damage from fire.",
+    "name": "Fire Immunity",
+    "description": "You take no damage from fire.",
     "type": "origins:modify_damage_taken",
     "damage_condition": {
         "type": "origins:in_tag",
         "tag": "is_fire"
     },
     "modifier": {
-        "operation": "multiply_base_additive",
-        "value": -0.75
+        "operation": "set_base",
+        "value": 0
     }
 }

@@ -6,7 +6,7 @@
     "impact": 3,
     "powers": [
         "ours:spawn/can_choose_nether",
-        "ours:damage/fire_resistance",
+        "ours:damage/fire_immunity",
         "ours:damage/infernal",
         "ours:relations/piglin_friend",
         "ours:relations/oppressed",
