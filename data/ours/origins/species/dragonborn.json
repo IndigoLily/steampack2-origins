@@ -6,10 +6,11 @@
     "impact": 3,
     "powers": [
         "ours:size/very_tall",
+        "ours:damage/very_tough",
+        "ours:damage/fire_immunity",
         "ours:movement/flight",
         "ours:movement/increased_jump",
         "ours:movement/slow_on_land",
-        "ours:damage/fire_immunity",
         "ours:food/partial_carnivore",
         "ours:firestarter"
     ]
