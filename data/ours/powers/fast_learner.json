@@ -1,9 +1,9 @@
 {
     "name": "Fast Learner",
-    "description": "You gain XP faster.",
+    "description": "You gain XP 50% faster.",
     "type": "origins:modify_xp_gain",
     "modifier": {
         "operation": "multiply_base_multiplicative",
-        "value": 1
+        "value": 0.5
     }
 }

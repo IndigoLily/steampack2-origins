@@ -8,6 +8,7 @@
         "ours:size/tall",
         "ours:damage/very_fragile",
         "ours:damage/poison_immunity",
-        "ours:darkvision"
+        "ours:darkvision",
+        "ours:fast_learner"
     ]
 }
