@@ -1,0 +1,22 @@
+{
+    "name": "Impact resistance",
+    "description": "You take less damage from flying into walls.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "flyIntoWall"
+            },
+            {
+                "type": "origins:name",
+                "name": "flyIntoWall.player"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_base_multiplicative",
+        "value": -0.5
+    }
+}
