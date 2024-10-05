@@ -9,6 +9,7 @@
         "ours:movement/fast",
         "ours:damage/very_fragile",
         "ours:damage/poison_immunity",
+        "ours:damage/fall_resistance",
         "ours:darkvision",
         "ours:fast_learner"
     ]

@@ -1,0 +1,10 @@
+{
+    "name": "Fall Resistance",
+    "description": "You take half the normal damage from falling.",
+    "type": "origins:attribute",
+    "attribute": "minecraft:generic.fall_damage_multiplier",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -0.5
+    }
+}
