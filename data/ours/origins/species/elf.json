@@ -6,6 +6,7 @@
     "impact": 1,
     "powers": [
         "ours:size/tall",
+        "ours:movement/fast",
         "ours:damage/very_fragile",
         "ours:damage/poison_immunity",
         "ours:darkvision",
