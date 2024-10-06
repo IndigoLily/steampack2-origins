@@ -10,10 +10,21 @@
             },
             {
                 "inverted": true,
-                "type": "origins:ingredient",
-                "ingredient": {
-                    "tag": "origins:meat"
-                }
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "origins:meat"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "origins:ignore_diet"
+                        }
+                    }
+                ]
             }
         ]
     }

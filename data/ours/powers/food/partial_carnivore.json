@@ -23,6 +23,12 @@
                         "ingredient": {
                             "tag": "minecraft:piglin_loved"
                         }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "origins:ignore_diet"
+                        }
                     }
                 ]
             }
