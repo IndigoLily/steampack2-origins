@@ -3,14 +3,11 @@
     "description": "You mine stone and ore faster.",
     "type": "origins:modify_break_speed",
     "block_condition": {
-        "type": "origins:or",
-        "conditions": [
-            {"type": "origins:in_tag", "tag": "c:stone"},
-            {"type": "origins:in_tag", "tag": "c:ores"}
-        ]
+        "type": "origins:in_tag",
+        "tag": "minecraft:mineable/pickaxe"
     },
     "modifier": {
         "operation": "multiply_base",
-        "value": 0.5
+        "value": 0.2
     }
 }
