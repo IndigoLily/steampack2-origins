@@ -1,8 +1,9 @@
 {
+    "replace": false,
     "values": [
-        "aquamirae:sweet_lance",
-        "estrogen:crystal_estrogen_pill",
-        "estrogen:estrogen_pill",
-        "estrogen:horse_urine_bottle"
+        { "required": false, "id": "aquamirae:sweet_lance" },
+        { "required": false, "id": "estrogen:crystal_estrogen_pill" },
+        { "required": false, "id": "estrogen:estrogen_pill" },
+        { "required": false, "id": "estrogen:horse_urine_bottle" }
     ]
 }
