@@ -3,7 +3,7 @@
     "icon": "minecraft:netherrack",
     "description": "One way or another, the Nether has left a mark on your bloodline.",
     "order": 6,
-    "impact": 3,
+    "impact": 2,
     "powers": [
         "ours:spawn/can_choose_nether",
         "ours:damage/fire_immunity",

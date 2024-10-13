@@ -2,6 +2,7 @@
     "name": "Nether",
     "description": "You spawn in the Nether.",
     "icon": "minecraft:netherrack",
+    "impact": 3,
     "powers": [
         "ours:spawn/nether"
     ]

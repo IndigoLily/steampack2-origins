@@ -1,5 +1,6 @@
 {
     "name": "Overworld",
     "description": "You spawn in the overworld.",
-    "icon": "minecraft:grass_block"
+    "icon": "minecraft:grass_block",
+    "impact": 0
 }
