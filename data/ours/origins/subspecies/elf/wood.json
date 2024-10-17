@@ -1,0 +1,13 @@
+{
+  "name": "Wood Elf",
+  "icon": "minecraft:oak_log",
+  "description": "These elves call the forest their home.",
+  "impact": 2,
+  "powers": [
+    "ours:archer",
+    "ours:wood_knockback",
+    "ours:mount_damage",
+    "ours:tree_climber",
+    "ours:fire_weakness"
+  ]
+}
