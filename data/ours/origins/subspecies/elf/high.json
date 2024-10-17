@@ -1,0 +1,9 @@
+{
+    "name": "High Elf",
+    "icon": "minecraft:enchanted_book",
+    "description": "These elves have a high affinity for magic.",
+    "impact": 1,
+    "powers": [
+        "ours:faster_learner"
+    ]
+}

@@ -1,6 +1,6 @@
 {
-    "name": "Fast Learner",
-    "description": "You gain XP 10% faster.",
+    "name": "Faster Learner",
+    "description": "You gain XP an additional 10% faster.",
     "type": "origins:modify_xp_gain",
     "modifier": {
         "operation": "add_base_early",
