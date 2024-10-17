@@ -3,6 +3,10 @@
     "order": 1,
     "origins": [
         {
+            "origins": [
+                "ours:subspecies/tiefling/overworld",
+                "ours:subspecies/tiefling/nether"
+            ],
             "condition": {
                 "type": "origins:and",
                 "conditions": [
@@ -14,13 +18,15 @@
                         "power": "ours:spawn/can_choose_nether"
                     }
                 ]
-            },
-            "origins": [
-                "ours:subspecies/tiefling/overworld",
-                "ours:subspecies/tiefling/nether"
-            ]
+            }
         },
         {
+            "origins": [
+                "ours:subspecies/elf/high",
+                "ours:subspecies/elf/wood",
+                "ours:subspecies/elf/frost",
+                "ours:subspecies/elf/dark"
+            ],
             "condition": {
                 "type": "origins:and",
                 "conditions": [
@@ -32,13 +38,7 @@
                         "origin": "ours:species/elf"
                     }
                 ]
-            },
-            "origins": [
-                "ours:subspecies/elf/high",
-                "ours:subspecies/elf/wood",
-                "ours:subspecies/elf/frost",
-                "ours:subspecies/elf/dark"
-            ]
+            }
         }
     ]
 }
