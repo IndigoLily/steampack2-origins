@@ -4,10 +4,10 @@
   "description": "These elves call the forest their home.",
   "impact": 2,
   "powers": [
-    "ours:archer",
-    "ours:wood_knockback",
-    "ours:mount_damage",
-    "ours:tree_climber",
-    "ours:fire_weakness"
+    "ours:movement/tree_climber",
+    "ours:damage/archer",
+    "ours:damage/wood_knockback",
+    "ours:damage/mount_damage",
+    "ours:damage/fire_weakness"
   ]
 }
