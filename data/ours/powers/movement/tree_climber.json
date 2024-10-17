@@ -1,0 +1,89 @@
+{
+    "name": "Tree Climber",
+    "description": "You can climb logs and leaves.",
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:collided_horizontally"
+            },
+            {
+                "type": "origins:in_block_anywhere",
+                "block_condition": {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:offset",
+                            "x": 1,
+                            "condition": {
+                                "type": "origins:or",
+                                "conditions": [
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:logs"
+                                    },
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:leaves"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "origins:offset",
+                            "x": -1,
+                            "condition": {
+                                "type": "origins:or",
+                                "conditions": [
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:logs"
+                                    },
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:leaves"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "origins:offset",
+                            "z": 1,
+                            "condition": {
+                                "type": "origins:or",
+                                "conditions": [
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:logs"
+                                    },
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:leaves"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "origins:offset",
+                            "z": -1,
+                            "condition": {
+                                "type": "origins:or",
+                                "conditions": [
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:logs"
+                                    },
+                                    {
+                                        "type": "origins:in_tag",
+                                        "tag": "minecraft:leaves"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
