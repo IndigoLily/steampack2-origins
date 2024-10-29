@@ -1,27 +1,7 @@
 {
     "name": "Slow on Land",
     "description": "You move slower on land.",
-    "type": "origins:conditioned_attribute",
-    "tick_rate": 1,
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:on_block"
-            },
-            {
-                "inverted": true,
-                "type": "origins:block_collision",
-                "block_condition": {
-                    "type": "origins:fluid",
-                    "fluid_condition": {
-                        "inverted": true,
-                        "type": "origins:empty"
-                    }
-                }
-            }
-        ]
-    },
+    "type": "origins:attribute",
     "modifier": {
         "name": "Slow on Land",
         "attribute": "minecraft:generic.movement_speed",
