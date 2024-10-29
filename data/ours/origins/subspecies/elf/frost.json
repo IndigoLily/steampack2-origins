@@ -1,0 +1,10 @@
+{
+    "name": "Wood Elf",
+    "icon": "minecraft:oak_log",
+    "description": "These elves are well adapted for cold environments.",
+    "impact": 2,
+    "powers": [
+        "ours:movement/fast_swimmer",
+        "ours:damage/cold_immunity"
+    ]
+}
