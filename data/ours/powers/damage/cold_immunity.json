@@ -1,0 +1,13 @@
+{
+    "name": "Cold Immunity",
+    "description": "You take no damage from cold.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "is_freezing"
+    },
+    "modifier": {
+        "operation": "set_base",
+        "value": 0
+    }
+}
