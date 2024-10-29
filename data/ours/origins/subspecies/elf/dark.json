@@ -1,0 +1,12 @@
+{
+    "name": "Dark Elf",
+    "icon": "minecraft:wither_rose",
+    "description": "These elves are well adapted for dark environments.",
+    "impact": 2,
+    "powers": [
+        "ours:damage/wither_immunity",
+        "ours:weakness_in_sunlight",
+        "ours:slowness_in_sunlight",
+        "ours:nausea_in_sunlight"
+    ]
+}

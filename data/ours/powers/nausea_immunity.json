@@ -1,0 +1,6 @@
+{
+    "name": "Nausea Immunity",
+    "description": "You are immune to the Nausea effect.",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:nausea"
+}

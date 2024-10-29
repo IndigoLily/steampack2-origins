@@ -1,0 +1,16 @@
+{
+    "name": "Nausea in Sunlight",
+    "description": "You constantly have the Nausea effect when in direct sunlight. This is prevented by a helmet or umbrella.",
+    "type": "origins:action_over_time",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:nausea",
+            "duration": 21,
+            "is_ambient": true
+        }
+    }
+}

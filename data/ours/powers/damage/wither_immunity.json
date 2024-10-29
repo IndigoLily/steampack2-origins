@@ -1,0 +1,6 @@
+{
+    "name": "Wither Immunity",
+    "description": "You cannot be inflicted with the Wither effect.",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:wither"
+}

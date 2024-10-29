@@ -9,6 +9,7 @@
         "ours:size/wide",
         "ours:damage/very_tough",
         "ours:damage/poison_immunity",
+        "ours:nausea_immunity",
         "ours:darkvision",
         "ours:miner",
         "ours:rider/goat"
