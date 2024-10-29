@@ -1,6 +1,6 @@
 {
-    "name": "Wood Elf",
-    "icon": "minecraft:oak_log",
+    "name": "Frost Elf",
+    "icon": "minecraft:ice",
     "description": "These elves are well adapted for cold environments.",
     "impact": 2,
     "powers": [
