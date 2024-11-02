@@ -1,0 +1,26 @@
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  make-release:
+    name: Make Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Make Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          zip -r OurOrigins.zip *
+          gh release create "${{ inputs.version }}" OurOrigins.zip --generate-notes --repo="$GITHUB_REPOSITORY"
