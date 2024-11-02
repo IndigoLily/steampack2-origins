@@ -8,6 +8,7 @@
         "ours:damage/archer",
         "ours:damage/wood_knockback",
         "ours:damage/mount_damage",
-        "ours:damage/fire_weakness"
+        "ours:damage/fire_weakness",
+        "ours:relations/beastmaster"
     ]
 }

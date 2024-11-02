@@ -5,6 +5,7 @@
     "impact": 2,
     "powers": [
         "ours:movement/fast_swimmer",
-        "ours:damage/cold_immunity"
+        "ours:damage/cold_immunity",
+        "ours:relations/beastmaster"
     ]
 }
